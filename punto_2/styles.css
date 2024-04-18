@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+td.deshabilitada {
+    background-color: lightgray;
+}
+
+td.seleccionada {
+    font-weight: bold;
+}
+
+td.fila-seleccionada {
+    background-color: lightslategray;
+}
+
+td.columna-seleccionada {
+    background-color: lightslategray;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botones button {
+    margin: 0 10px;
+}
